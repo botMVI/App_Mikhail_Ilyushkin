@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4198537958F3296F6B94BBA5 /* Pods_App_Mikhail_Ilyushkin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DF1DDEBAE296450A51C455 /* Pods_App_Mikhail_Ilyushkin.framework */; };
+		D522DDF725221B0F00A8A67C /* FriendsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = D522DDF625221B0F00A8A67C /* FriendsList.xib */; };
+		D522DDFB25221BE700A8A67C /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DDFA25221BE700A8A67C /* FriendsListTableViewController.swift */; };
+		D522DDFE25221C3800A8A67C /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DDFD25221C3800A8A67C /* FriendsListTableViewCell.swift */; };
+		D522DE082522233700A8A67C /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DE062522233700A8A67C /* FriendsCollectionViewController.swift */; };
+		D522DE092522233700A8A67C /* FriendsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D522DE072522233700A8A67C /* FriendsCollectionViewController.xib */; };
+		D522DE1825222BB300A8A67C /* FriendsCellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DE1625222BB300A8A67C /* FriendsCellCollectionView.swift */; };
+		D522DE1925222BB300A8A67C /* FriendsCellCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D522DE1725222BB300A8A67C /* FriendsCellCollectionView.xib */; };
+		D522DE2125222CC600A8A67C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DE2025222CC600A8A67C /* User.swift */; };
+		D522DE2B25222DC100A8A67C /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522DE2A25222DC100A8A67C /* ImageCell.swift */; };
 		D5510D37251CD7300074C0F2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5510D36251CD7300074C0F2 /* APIManager.swift */; };
 		D5510D3B251CEE340074C0F2 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5510D3A251CEE340074C0F2 /* FeedTableViewCell.swift */; };
 		D5510D58251D4D100074C0F2 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5510D57251D4D100074C0F2 /* SearchTableViewCell.swift */; };
@@ -34,6 +43,15 @@
 		09337AABE09E5E27D34F61B6 /* Pods-App_Mikhail_Ilyushkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_Mikhail_Ilyushkin.debug.xcconfig"; path = "Target Support Files/Pods-App_Mikhail_Ilyushkin/Pods-App_Mikhail_Ilyushkin.debug.xcconfig"; sourceTree = "<group>"; };
 		65DF1DDEBAE296450A51C455 /* Pods_App_Mikhail_Ilyushkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Mikhail_Ilyushkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA55D5D4A3CF80D4F845912 /* Pods-App_Mikhail_Ilyushkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_Mikhail_Ilyushkin.release.xcconfig"; path = "Target Support Files/Pods-App_Mikhail_Ilyushkin/Pods-App_Mikhail_Ilyushkin.release.xcconfig"; sourceTree = "<group>"; };
+		D522DDF625221B0F00A8A67C /* FriendsList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsList.xib; sourceTree = "<group>"; };
+		D522DDFA25221BE700A8A67C /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
+		D522DDFD25221C3800A8A67C /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		D522DE062522233700A8A67C /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
+		D522DE072522233700A8A67C /* FriendsCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCollectionViewController.xib; sourceTree = "<group>"; };
+		D522DE1625222BB300A8A67C /* FriendsCellCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCellCollectionView.swift; sourceTree = "<group>"; };
+		D522DE1725222BB300A8A67C /* FriendsCellCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsCellCollectionView.xib; sourceTree = "<group>"; };
+		D522DE2025222CC600A8A67C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D522DE2A25222DC100A8A67C /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		D5510D36251CD7300074C0F2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D5510D3A251CEE340074C0F2 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		D5510D57251D4D100074C0F2 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -87,6 +105,64 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D522DDF225221ABD00A8A67C /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				D5869B18251B86F800C79E93 /* Header */,
+				D522DE032522227D00A8A67C /* MainFriends */,
+				D522DE0025221C4900A8A67C /* FriendsList */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		D522DE0025221C4900A8A67C /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				D522DDF625221B0F00A8A67C /* FriendsList.xib */,
+				D522DDFA25221BE700A8A67C /* FriendsListTableViewController.swift */,
+				D522DDFD25221C3800A8A67C /* FriendsListTableViewCell.swift */,
+				D522DE1725222BB300A8A67C /* FriendsCellCollectionView.xib */,
+				D522DE1625222BB300A8A67C /* FriendsCellCollectionView.swift */,
+				D522DE2A25222DC100A8A67C /* ImageCell.swift */,
+				D522DE05252222F100A8A67C /* FriendsCollection */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		D522DE032522227D00A8A67C /* MainFriends */ = {
+			isa = PBXGroup;
+			children = (
+				D5869B0E251B7B9400C79E93 /* ProfileViewController.swift */,
+				D5869B11251B7F7800C79E93 /* ProfileTableViewCell.swift */,
+			);
+			path = MainFriends;
+			sourceTree = "<group>";
+		};
+		D522DE04252222AE00A8A67C /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D5869AF4251B730100C79E93 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D522DE05252222F100A8A67C /* FriendsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D522DE072522233700A8A67C /* FriendsCollectionViewController.xib */,
+				D522DE062522233700A8A67C /* FriendsCollectionViewController.swift */,
+			);
+			path = FriendsCollection;
+			sourceTree = "<group>";
+		};
+		D522DE1E25222CAD00A8A67C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D522DE2025222CC600A8A67C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D5869AC8251B5B2F00C79E93 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +187,8 @@
 			children = (
 				D5869AE9251B5C7C00C79E93 /* Application */,
 				D5869AEA251B5C9700C79E93 /* Main */,
-				D5869AEC251B5FB500C79E93 /* Tabbar */,
+				D5869AEC251B5FB500C79E93 /* TabbarAndInfo */,
+				D522DE1E25222CAD00A8A67C /* Model */,
 				D5869B14251B809B00C79E93 /* Other */,
 			);
 			path = App_Mikhail_Ilyushkin;
@@ -135,17 +212,17 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		D5869AEC251B5FB500C79E93 /* Tabbar */ = {
+		D5869AEC251B5FB500C79E93 /* TabbarAndInfo */ = {
 			isa = PBXGroup;
 			children = (
+				D522DE04252222AE00A8A67C /* Tabbar */,
 				D5869AF7251B739D00C79E93 /* Feed */,
 				D5869AF8251B73A300C79E93 /* Search */,
 				D5869AF9251B73A900C79E93 /* Chat */,
 				D5869AFA251B73AD00C79E93 /* Notifications */,
 				D5869AFB251B73B500C79E93 /* Profile */,
-				D5869AF4251B730100C79E93 /* TabbarController.swift */,
 			);
-			path = Tabbar;
+			path = TabbarAndInfo;
 			sourceTree = "<group>";
 		};
 		D5869AF7251B739D00C79E93 /* Feed */ = {
@@ -187,9 +264,7 @@
 		D5869AFB251B73B500C79E93 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				D5869B18251B86F800C79E93 /* Header */,
-				D5869B0E251B7B9400C79E93 /* ProfileViewController.swift */,
-				D5869B11251B7F7800C79E93 /* ProfileTableViewCell.swift */,
+				D522DDF225221ABD00A8A67C /* Friends */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -272,8 +347,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D522DE1925222BB300A8A67C /* FriendsCellCollectionView.xib in Resources */,
+				D522DE092522233700A8A67C /* FriendsCollectionViewController.xib in Resources */,
 				D5869B1A251B872700C79E93 /* HeaderView.xib in Resources */,
 				D5869AE1251B5B3300C79E93 /* LaunchScreen.storyboard in Resources */,
+				D522DDF725221B0F00A8A67C /* FriendsList.xib in Resources */,
 				D5869ADE251B5B3300C79E93 /* Assets.xcassets in Resources */,
 				D5869ADC251B5B2F00C79E93 /* Main.storyboard in Resources */,
 				D55F0A93251CCF68009F3367 /* GoogleService-Info.plist in Resources */,
@@ -329,19 +407,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D522DE082522233700A8A67C /* FriendsCollectionViewController.swift in Sources */,
 				D5510D37251CD7300074C0F2 /* APIManager.swift in Sources */,
 				D5869B01251B742300C79E93 /* SearchViewController.swift in Sources */,
 				D5869AD9251B5B2F00C79E93 /* ViewController.swift in Sources */,
 				D5869B07251B743E00C79E93 /* ChatViewController.swift in Sources */,
+				D522DE2B25222DC100A8A67C /* ImageCell.swift in Sources */,
 				D5869B12251B7F7800C79E93 /* ProfileTableViewCell.swift in Sources */,
 				D5510D3B251CEE340074C0F2 /* FeedTableViewCell.swift in Sources */,
 				D5869AF5251B730100C79E93 /* TabbarController.swift in Sources */,
+				D522DE2125222CC600A8A67C /* User.swift in Sources */,
 				D5869AFD251B741400C79E93 /* FeedViewController.swift in Sources */,
 				D5869AD5251B5B2F00C79E93 /* AppDelegate.swift in Sources */,
 				D5869B1D251B875800C79E93 /* HeaderView.swift in Sources */,
+				D522DE1825222BB300A8A67C /* FriendsCellCollectionView.swift in Sources */,
 				D5869B0F251B7B9400C79E93 /* ProfileViewController.swift in Sources */,
 				D5869B04251B743100C79E93 /* NotificationsViewController.swift in Sources */,
 				D5510D5B251D56670074C0F2 /* ChatTableViewCell.swift in Sources */,
+				D522DDFB25221BE700A8A67C /* FriendsListTableViewController.swift in Sources */,
+				D522DDFE25221C3800A8A67C /* FriendsListTableViewCell.swift in Sources */,
 				D5869AD7251B5B2F00C79E93 /* SceneDelegate.swift in Sources */,
 				D5510D58251D4D100074C0F2 /* SearchTableViewCell.swift in Sources */,
 			);
