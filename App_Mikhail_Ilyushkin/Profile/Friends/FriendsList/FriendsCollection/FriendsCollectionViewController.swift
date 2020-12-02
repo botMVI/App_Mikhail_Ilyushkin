@@ -25,12 +25,14 @@ class FriendsCollectionViewController: UICollectionViewController {
     }
     
     
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! ImageCell
+//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! ImageCell
+//
+//        cell.selectedImage.image = selectedImage
+//
+//        return cell
+//    }
         
-        cell.selectedImage.image = selectedImage
-        
-        return cell
-    }
+//  }
 }
