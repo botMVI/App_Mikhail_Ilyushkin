@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabbarController.swift
 //  App_Mikhail_Ilyushkin
 //
 //  Created by Michael Iliouchkin on 23.09.2020.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabbarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.navigationItem.hidesBackButton = true
+        
     }
-
-
+    
 }
-
