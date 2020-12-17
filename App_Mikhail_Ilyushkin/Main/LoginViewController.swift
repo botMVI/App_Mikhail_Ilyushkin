@@ -6,64 +6,31 @@
 //
 
 import UIKit
-//import WebKit
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginInput: UITextField!
     @IBOutlet weak var pwdInput: UITextField!
     @IBOutlet weak var scrollView: UIScrollView!
-    
-//
-//    @IBOutlet weak var webView: WKWebView!
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//        var urlComponents = URLComponents()
-//                urlComponents.scheme = "https"
-//                urlComponents.host = "oauth.vk.com"
-//                urlComponents.path = "/authorize"
-//                urlComponents.queryItems = [
-//                    URLQueryItem(name: "client_id", value: "7615257"),
-//                    URLQueryItem(name: "display", value: "mobile"),
-//                    URLQueryItem(name: "redirect_uri", value: "https://oauth.vk.com/blank.html"),
-//                    URLQueryItem(name: "scope", value: "262150"),
-//                    URLQueryItem(name: "response_type", value: "token"),
-//                    URLQueryItem(name: "v", value: "5.68")
-//                ]
-//
-//                let request = URLRequest(url: urlComponents.url!)
-//
-//                webView.load(request)
-//    }
-//
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     @IBAction func loginButton(_ sender: UIButton) {
-//
-//            let storyboard = UIStoryboard(name: "Tabbar", bundle: nil)
-//            let vc = storyboard.instantiateViewController(identifier: "Tabbar")
-//            self.navigationController?.pushViewController(vc, animated: false)
+        
+    }
+    
+    @IBAction func registerButton(_ sender: UIButton) {
+        showRegisterVC()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupTapGesture()
     }
 
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
 
         let checkResult = checkUserData()
-
+        
         if !checkResult {
             showLoginError()
         }
@@ -71,7 +38,7 @@ class LoginViewController: UIViewController {
     }
 
     func checkUserData() -> Bool {
-        return true
+//        return true
 
         guard let login = loginInput.text,
             let password = pwdInput.text else { return false }
@@ -91,6 +58,18 @@ class LoginViewController: UIViewController {
         alter.addAction(action)
         present(alter, animated: true, completion: nil)
     }
+    
+    func showRegisterVC() {
+        let registerVC = RegisterVC()
+        registerVC.modalPresentationStyle = .fullScreen
+        present(registerVC, animated: true, completion: nil)
+    }
+    
+    fileprivate func setupTapGesture() {
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTapDismiss)))
+    }
+    
+    @objc fileprivate func handleTapDismiss() {
+        view.endEditing(true)
+    }
 }
-
-
